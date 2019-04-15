@@ -6,7 +6,7 @@ def sumatodos(limitTo):
 
 def sumatodosLosCuadrados(limitTo):
 	resultado = 0
-	for i in range(limitTo):
+	for i in range(limitTo+1):
 		resultado += i*i
 	return resultado
 
