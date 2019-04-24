@@ -21,3 +21,7 @@ def factorial(n):
 
 n = 4
 print("El factorial de {} es: {}".format(n, factorial(n)))
+n = 1
+print("El factorial de {} es: {}".format(n, factorial(n)))
+n = 0
+print("El factorial de {} es: {}".format(n, factorial(n)))
